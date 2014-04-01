@@ -1,8 +1,9 @@
 =====================
 Tenniel Illustrations for Alice in Wonderland
 =====================
-:Title: Tenniel Illustrations for Alice in Wonderland
-:Author: Tenniel, John, Sir, 1820-1914
+:Title: Alice in Wonderland
+:Author: Lewis Carroll
+:Illustrator: Tenniel, John, Sir, 1820-1914
 :Language: 
 :LCC: PZ
 :Subject:
@@ -10,7 +11,7 @@ Tenniel Illustrations for Alice in Wonderland
 
 :Book id: 114
 
-This is a git repository of the source files for the book Tenniel Illustrations for Alice in Wonderland by Tenniel, John, Sir, 1820-1914. This book is in the Public Domain, see the LICENSE file for details.
+This is a git repository of the source files for the book Alice in Wonderland by Lewis Carroll, with illustrations by by Tenniel, John, Sir, 1820-1914. This book is in the Public Domain, see the LICENSE file for details.
 
 Found an error?
 ===============

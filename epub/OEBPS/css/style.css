@@ -1,0 +1,263 @@
+div.header {
+  display: none;
+  display: oeb-page-head;
+}
+
+div.name {
+  font-size: 150%;
+  font-variant: small-caps;
+  text-align: center;
+  margin: 3em 0 1em 0;
+}
+div.name span {
+  padding: 0 2em 0.5em 2em;
+  border-bottom: 2px solid #000000;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+div.pagebreak {
+  page-break-before: always;
+  height: 0;
+  padding: 0
+}
+
+p {
+  text-indent: 1em;
+  margin: 0;
+}
+p.initial {
+  text-indent: 0;
+}
+p.noindent {
+  text-indent: 0;
+}
+
+em {
+  font-style: italic;
+}
+em em {
+  font-style: normal;
+}
+
+span.caps {
+  font-variant: small-caps;
+}
+
+span.big {
+  font-size: 120%;
+}
+
+span.first {
+  font-variant: small-caps;
+}
+span.drop {
+  font-size: 150%;
+  font-weight: bold;
+}
+span.predrop {
+  font-weight: normal;
+}
+
+div.center {
+  text-align: center;
+  margin: 1em;
+}
+
+div.signature {
+  text-align: right;
+  margin-top: 2em;
+}
+
+blockquote {
+  margin: 1em 2em 1em 2em;
+}
+blockquote p {
+}
+blockquote div {
+  margin-left: 2em;
+}
+
+div.separator {
+  text-align: center;
+  margin: 1em 0;
+}
+
+div.title {
+  margin: 1em 0;
+  font-size: 120%;
+  text-align: center;
+}
+div.subtitle {
+  font-size: 70%;
+}
+
+div.poetry {
+  margin: 1em 0 1em 2em;
+  font-style: italic;
+}
+div.stanza {
+  margin: 0.5em 0;
+  page-break-inside: avoid;
+}
+div.poetry p {
+  margin: 0;
+  padding-left: 5em;
+  text-indent: -5em;
+  text-align: left;
+}
+div.poetry p.indented {
+  margin-left: 1.5em;
+}
+div.poetry p.indented2 {
+  margin-left: 3em;
+}
+div.poetry p.indented3 {
+  margin-left: 4.5em;
+}
+div.poetry em, div.poetry span.caps {
+  font-style: normal;
+}
+
+div#tail {
+  page-break-inside: avoid;
+}
+
+div#tail div.smaller {
+  font-size: 93%;
+  margin-left: 0.5em;
+}
+div#tail p.tail1 { margin-left: 0.5em; }
+div#tail p.tail2 { margin-left: 1em; }
+div#tail p.tail3 { margin-left: 2em; }
+div#tail p.tail4 { margin-left: 3em; }
+div#tail p.tail5 { margin-left: 4em; }
+div#tail p.tail6 { margin-left: 5em; }
+div#tail p.tail7 { margin-left: 5.5em; }
+div#tail p.tail8 { margin-left: 6em; }
+
+div.illustration {
+  text-align: center;
+  margin: 1em 0;
+  max-width: 100%;
+  max-height: 100%;
+  page-break-inside: avoid;
+  clear: both;
+}
+div.illustration img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+div.end {
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* Disable non-rectangular wraps */
+#ill23_a, #ill23_b,
+#ill41_a, #ill41_b {
+  display: none;
+}
+/*
+div.left {
+  float: left;
+  clear: left;
+  margin-right: 0.5em;
+  text-align: left;
+}
+div.right {
+  float: right;
+  clear: right;
+  margin-left: 0.5em;
+  text-align: right;
+}
+.clear {
+  clear: both;
+}
+
+div#ill23 {
+  width: 100%;
+  max-height: 0;
+  margin: 0;
+  page-break-after: avoid;
+  opacity: 0.5;
+}
+div#ill23_a {
+  width: 100%;
+  margin-bottom: 0.5em;
+  page-break-after: avoid;
+}
+div#ill23_b {
+  width: 45.71%; /* 256/560
+  margin-top: -0.5em;
+  page-break-after: avoid;
+}
+div#ill23_a img, div#ill23_b img {
+  max-width: 100%;
+  visibility: hidden;
+}
+
+div#ill41 {
+  width: 100%;
+  max-height: 0;
+  margin: 0;
+  page-break-after: avoid;
+  opacity: 0.5;
+}
+div#ill41_a {
+  width: 52.71%; /* 292/554
+  margin-bottom: -0.5em;
+  page-break-after: avoid;
+}
+div#ill41_b {
+  width: 100%;
+  margin-top: 0.5em;
+  page-break-after: avoid;
+}
+div#ill41_a img, div#ill41_b img {
+  max-width: 100%;
+  visibility: hidden;
+}
+*/
+
+div.footnote {
+  font-size: 80%;
+  margin: 1em 0 1em 0;
+  padding: 0 0 1em 0;
+  page-break-after: always;
+}
+div.footnote p {
+  text-indent: 0;
+}
+div.backlink {
+  text-align: center;
+  margin-top: 1em;
+}
+span.mark {
+  font-weight: bold;
+  margin: 0 1em 0 0;
+}
+a.call {
+  font-size: 60%;
+  font-weight: bold;
+  vertical-align: text-top;
+}
+
+div.toc {
+  font-size: 120%;
+  text-align: left;
+}
+div.toc a {
+  font-variant: small-caps;
+}
+div.frontmatter {
+}
+div.chapter {
+  margin: 1em 0 0 1em;
+}
